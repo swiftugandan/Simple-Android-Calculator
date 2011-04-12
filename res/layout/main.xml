@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<TextView android:id="@+id/txtInput" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="right" android:layout_marginTop="5sp"
+		android:singleLine="true" android:textSize="45sp" android:text=""
+		android:layout_marginRight="5sp" android:background="@drawable/inputview" android:layout_marginLeft="5sp" />
+
+	<Button android:id="@+id/buttonClear" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:layout_gravity="right" android:textSize="40sp"
+		android:background="@drawable/operators" android:text="c" />
+
+	<TableLayout android:id="@+id/keypad" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_centerHorizontal="true"
+		android:stretchColumns="*">
+
+		<TableRow>
+			<Button android:id="@+id/buttonSeven" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="7" />
+			<Button android:id="@+id/buttonEight" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="8" />
+			<Button android:id="@+id/buttonNine" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="9" />
+			<Button android:id="@+id/buttonProduct" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/operators"
+				android:text="x" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/buttonFour" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="4" />
+			<Button android:id="@+id/buttonFive" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="5" />
+			<Button android:id="@+id/buttonSix" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="6" />
+			<Button android:id="@+id/buttonDivision" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/operators"
+				android:text="/" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/buttonOne" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="1" />
+			<Button android:id="@+id/buttonTwo" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="2" />
+			<Button android:id="@+id/buttonThree" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="3" />
+			<Button android:id="@+id/buttonMinus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/operators"
+				android:text="-" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/buttonZero" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="0" />
+			<Button android:id="@+id/buttonPoint" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="." />
+			<Button android:id="@+id/buttonEquals" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/keybutton"
+				android:text="=" />
+			<Button android:id="@+id/buttonPlus" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center"
+				android:textSize="40sp" android:background="@drawable/operators"
+				android:text="+" />
+		</TableRow>
+	</TableLayout>
+
+</LinearLayout>
